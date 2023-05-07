@@ -1,0 +1,161 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding:0px; 
+}
+
+/* For Navigation Section */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 66px;
+    background: #FCAF02;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+
+.navbar .logo img{
+    height:35px;
+    margin-left: 58px;
+}
+
+.nav-items{
+    padding-right: 53px;
+}
+
+.nav-items a{
+    color: #000000;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 18px;
+
+}
+
+/* For Jeff Bezos Section */
+
+.homepage{
+    display: flex;
+    background-color: #000000;
+    padding-top: 50px; 
+    padding-left: 58px;
+}
+
+.homepage .image img{
+    width:600px;
+   
+}
+
+.homepage .content h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 78px;
+        color: #FFFFFF;
+}
+
+.homepage .content p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.homepage .content .btn{
+    font-size: 25px;
+    width: 260px;
+    height: 55px;
+    left: 63px;
+    top: 573px;
+    background: #FCAF02;
+    border-radius: 500px;
+    padding:14px 70px;
+    border:none;
+    margin-top:35px;
+}
+/* For Form Section */
+.form{
+    background-color: #000000;
+    padding:50px 58px;
+}
+
+.form h1{
+    font-size: 30px;
+    color: #FCAF02;
+    padding-bottom: 25px;
+}
+
+ .form-content input{
+
+    border: 2px solid #FCAF02;
+    border-radius: 50px;
+    height: 45px;
+    width:97%;
+    margin-bottom:20px;
+    outline:none;
+    background-color: #000000;
+    /* padding-left: 20px; */
+}
+
+.form-content2 input{
+    width:47%;
+    
+}
+
+.form-content2 #tel-box{ 
+    margin-right: 25px;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: #FCAF02;
+    padding-left: 20px;
+}
+
+.form-content .btn{
+    font-size: 25px;
+    width: 275px;
+    height: 55px;
+    left: 63px;
+    top: 573px;
+    background: #FCAF02;
+    border-radius: 500px;
+    padding:14px 50px;
+    border:none;
+    margin-top:25px;
+    margin-left:420px;
+}
+
+/* For Table Section */
+
+ td{         /*To create side border of each cell & give padding to each cell  */
+    padding: 10px 50px;
+    border-left: 2px solid #FCAF02;
+}
+
+thead,table{            /*To create thead total border & table outer border */
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+}
+
+
+table{      /*To make the boder fit the complete width of screen */
+    width: 100%;
+}
+
+.table{  /*To give table outer padding,background color of table,table font  */
+    
+    font-size: 18px;
+    color: #FCAF02;
+    padding: 0px 58px;
+    padding-bottom: 60px;
+    background-color: #000000;
+}
+
+tfoot{          /*To give specific bg & font color to footer */
+    background: #FCAF02;
+    color: #000000;
+}
+
+.footer-border{     /*To create specific internal border of black color */
+    border-left: 2px solid #000000;
+}
